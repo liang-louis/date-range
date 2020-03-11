@@ -14,12 +14,13 @@
 
 <script>
 export default {
-  name: 'DatePickerInput',
+  name: 'DateRange',
   props: {
     value: {
       type: [String, Array],
       default: ''
     },
+    // 宽度
     width: {
       type: [String, Number],
       default: 240
